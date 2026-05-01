@@ -27,4 +27,4 @@ jobs:
         run: go build ./cmd/app
 
       - name: Docker build
-        run: docker build -t BE_Golang .
+        run: docker build -t be_golang .
